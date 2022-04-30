@@ -1,0 +1,412 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-BoldItalic.eot');
+    src: url('../fonts/Boing-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Boing-BoldItalic.woff') format('woff'),
+        url('../fonts/Boing-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Boing-BoldItalic.svg#../fonts/Boing-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Italic.eot');
+    src: url('../fonts/Boing-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Italic.woff2') format('woff2'),
+        url('../fonts/Boing-Italic.woff') format('woff'),
+        url('../fonts/Boing-Italic.ttf') format('truetype'),
+        url('../fonts/Boing-Italic.svg#../fonts/Boing-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Bold.eot');
+    src: url('../fonts/Boing-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Bold.woff2') format('woff2'),
+        url('../fonts/Boing-Bold.woff') format('woff'),
+        url('../fonts/Boing-Bold.ttf') format('truetype'),
+        url('../fonts/Boing-Bold.svg#../fonts/Boing-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-LightItalic.eot');
+    src: url('../fonts/Boing-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-LightItalic.woff2') format('woff2'),
+        url('../fonts/Boing-LightItalic.woff') format('woff'),
+        url('../fonts/Boing-LightItalic.ttf') format('truetype'),
+        url('../fonts/Boing-LightItalic.svg#../fonts/Boing-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-MediumItalic.eot');
+    src: url('../fonts/Boing-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Boing-MediumItalic.woff') format('woff'),
+        url('../fonts/Boing-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Boing-MediumItalic.svg#../fonts/Boing-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-ThinItalic.eot');
+    src: url('../fonts/Boing-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Boing-ThinItalic.woff') format('woff'),
+        url('../fonts/Boing-ThinItalic.ttf') format('truetype'),
+        url('../fonts/Boing-ThinItalic.svg#../fonts/Boing-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Regular.eot');
+    src: url('../fonts/Boing-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Regular.woff2') format('woff2'),
+        url('../fonts/Boing-Regular.woff') format('woff'),
+        url('../fonts/Boing-Regular.ttf') format('truetype'),
+        url('../fonts/Boing-Regular.svg#../fonts/Boing-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Light.eot');
+    src: url('../fonts/Boing-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Light.woff2') format('woff2'),
+        url('../fonts/Boing-Light.woff') format('woff'),
+        url('../fonts/Boing-Light.ttf') format('truetype'),
+        url('../fonts/Boing-Light.svg#../fonts/Boing-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Medium.eot');
+    src: url('../fonts/Boing-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Medium.woff2') format('woff2'),
+        url('../fonts/Boing-Medium.woff') format('woff'),
+        url('../fonts/Boing-Medium.ttf') format('truetype'),
+        url('../fonts/Boing-Medium.svg#../fonts/Boing-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-SemiboldItalic.eot');
+    src: url('../fonts/Boing-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/Boing-SemiboldItalic.woff') format('woff'),
+        url('../fonts/Boing-SemiboldItalic.ttf') format('truetype'),
+        url('../fonts/Boing-SemiboldItalic.svg#../fonts/Boing-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Semibold.eot');
+    src: url('../fonts/Boing-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Semibold.woff2') format('woff2'),
+        url('../fonts/Boing-Semibold.woff') format('woff'),
+        url('../fonts/Boing-Semibold.ttf') format('truetype'),
+        url('../fonts/Boing-Semibold.svg#../fonts/Boing-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boing';
+    src: url('../fonts/Boing-Thin.eot');
+    src: url('../fonts/Boing-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Boing-Thin.woff2') format('woff2'),
+        url('../fonts/Boing-Thin.woff') format('woff'),
+        url('../fonts/Boing-Thin.ttf') format('truetype'),
+        url('../fonts/Boing-Thin.svg#../fonts/Boing-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$darkColor: #292929;
+$primaryColor: #FAB209;
+$handFont: p22-cezanne-pro, sans-serif;
+
+@mixin for-mobile {
+	@media screen and (max-width: 767px) { @content; }
+}
+@mixin for-tablet {
+	@media screen and (max-width: 1200px) { @content; }
+}
+@mixin for-1440px {
+	@media screen and (max-width: 1440px) { @content; }
+}
+@mixin for-win-125 {
+	@media screen and (max-width: 1550px) { @content; }
+}
+@mixin for-13inc {
+	@media screen and (max-width: 1681px) { @content; }
+}
+@mixin for-animation {
+	@media screen and (min-width: 1200px) { @content; }
+}
+@mixin for-hover {
+	@media (hover: hover) { @content; }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Boing', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    &:focus {
+        outline: 0;
+    }
+}
+
+main {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 30px;
+    &:last-child {
+        margin: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    @include for-13inc {
+        max-width: 1500px;
+    }
+    @include for-win-125 {
+        max-width: 1400px;
+    }
+    @include for-1440px {
+        max-width: 1360px;
+    }
+    @include for-tablet {
+        max-width: 100%;
+        padding: 0 60px;
+    }
+    @include for-mobile {
+        padding: 0 30px;
+    }
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: .4s;
+    .mobile-close {
+        position: absolute;
+        top: 50px;
+        left: 400px;
+        transform: translateX(-50%);
+        a {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #F4F0E7;
+            border: 5px solid white;
+            svg {
+                fill:none;stroke:#747474;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;
+            }
+        }
+        @include for-mobile {
+            left: 300px;
+        }
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba($darkColor, .7);
+    }
+    .mobile-menu-main {
+        position: relative;
+        width: 400px;
+        transform: translateX(-100%);
+        transition: .4s;
+        .mobile-main {
+            background-color: white;
+            padding: 100px 60px;
+            overflow: auto;
+            height: 100vh;
+            .logo {
+                margin-bottom: 45px;
+            }
+            .menu {
+                margin-bottom: 45px;
+                ul {
+                    li {
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding: 15px 0;
+                            font-size: 17px;
+                            border-bottom: 1px solid #E0E0E0;
+                            transition: .4s;
+                            .arrow {
+                                svg {
+                                    transition: .4s;fill:none;stroke:#fab209;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.1px;
+                                }
+                            }
+                            &.active {
+                                color: $primaryColor;
+                                .arrow {
+                                    svg {
+                                        transform: rotate(90deg);
+                                    }
+                                }
+                            }
+                            @include for-mobile {
+                                font-size: 15px;
+                            }
+                        }
+                        ul {
+                            display: none;
+                            padding: 15px;
+                            background-color: rgba($primaryColor, .1);
+                            li {
+                                a {
+                                    padding: 7px 0;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        &:last-child {
+                            a {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .mail {
+                margin-bottom: 45px;
+                a {
+                    display: block;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #696969;
+                    span {
+                        color: #000;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            bottom: -5px;
+                            left: 0;
+                            width: 40px;
+                            height: 1px;
+                            background-color: $primaryColor;
+                        }
+                    }
+                }
+            }
+            .language {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    a {
+                        font-size: 17px;
+                        margin-right: 15px;
+                        &.active {
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+            @include for-mobile {
+                padding: 60px 30px;
+            }
+        }
+        &.active {
+            transform: translateX(0);
+        }
+        @include for-mobile {
+            width: 300px;
+        }
+    }
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    @include for-mobile {
+        overflow: auto;
+    }
+}
