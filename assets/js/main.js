@@ -32,4 +32,10 @@ $(function() {
 		$(this).parent().siblings().find('ul').slideUp();
 		$(this).parent().siblings().find('a').removeClass('active');
 	})
+
+	// Language
+	$('.language .current').on('click', function() {
+		$(this).toggleClass('active');
+		$(this).parent().find('ul').slideToggle();
+	})
 });
