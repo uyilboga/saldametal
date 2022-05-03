@@ -1,5 +1,7 @@
 $(function() {
 
+	$("select").niceSelect();
+
 	// Header Scroll Active
 	$(window).scroll(function() {
         $(window).scrollTop() > 100 ? $("header").addClass("scroll-active") : $("header").removeClass("scroll-active")
@@ -37,5 +39,12 @@ $(function() {
 	$('.language .current').on('click', function() {
 		$(this).toggleClass('active');
 		$(this).parent().find('ul').slideToggle();
+	})
+
+	$(".faq .faq-item .faq-header").on('click', function() {
+		$(this).parent().toggleClass('active').siblings().removeClass('active');
+
+		$(this).parent().find('.faq-content').slideToggle();
+		$(this).parent().siblings().find('.faq-content').slideUp();
 	})
 });
