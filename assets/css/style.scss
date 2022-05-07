@@ -902,3 +902,152 @@ header {
         }
     }
 }
+
+.news {
+    padding: 135px 0;
+    .latest-news {
+        margin-bottom: 45px;
+        .latest-news-item {
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            .img {
+                img {
+                    width: 100%;
+                    height: 475px;
+                    object-fit: cover;
+                }
+            }
+            .news-content {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                padding: 60px 40px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                .content {
+                    flex: 1;
+                    padding-right: 200px;
+                    h3 {
+                        font-weight: 600;
+                        font-size: 24px;
+                        letter-spacing: 0.03em;
+                        color: #e8e8e8;
+                        margin-bottom: 30px;
+                    }
+                    .cnt {
+                        font-weight: 300;
+                        font-size: 16px;
+                        letter-spacing: 0.03em;
+                        line-height: 25px;
+                        color: #e8e8e8;
+                        opacity: 0.8;
+                    }
+                }
+                .link {
+                    a {
+                        display: flex;
+                        align-items: center;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.03em;
+                        color: #fff;
+                        height: 60px;
+                        border-radius: 20px;
+                        background-color: #009EE3;
+                        padding: 0 45px;
+                        .icon {
+                            margin-left: 15px;
+                            svg {
+                                fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;
+                            }
+                        }
+                    }
+                }
+            } 
+            &:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background: linear-gradient(rgba(45, 45, 45, 0) 0%, rgba(45, 45, 45, 0.88) 67.77%, #2d2d2d 100%);
+            }
+        }
+    }
+
+    .news-wrapper {
+        display: flex;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+        .item {
+            padding: 0 15px;
+            width: 33.3%;
+            .news-item {
+                margin-bottom: 30px;
+                border-radius: 20px;
+                background: #fff;
+                box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                .img {
+                    img {
+                        width: 100%;
+                        height: 240px;
+                    }
+                }
+                .news-content {
+                    padding: 30px;
+                    h3 {
+                        margin-bottom: 15px;        
+                        a {
+                            font-weight: 500;
+                            font-size: 20px;
+                            color: #676767;
+                        }
+                    }
+                    .cnt {
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #676767;
+                        opacity: 0.7;
+                        margin-bottom: 30px;
+                    }
+                    .news-footer {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .date {
+                            font-weight: 300;
+                            font-size: 16px;
+                            color: #676767;
+                        }
+                        a {
+                            font-weight: 300;
+                            font-size: 16px;
+                            color: #676767;
+                            position: relative;
+                            padding-right: 50px;
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                right: 0;
+                                width: 35px;
+                                height: 1px;
+                                background-color: #676767;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

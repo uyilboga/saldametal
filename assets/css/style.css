@@ -1063,4 +1063,198 @@ header.scroll-active:before {
 .career .career-main .career-main-wrapper .career-faq .faq .faq-item:first-child .faq-content {
   display: block;
 }
+
+.news {
+  padding: 135px 0;
+}
+
+.news .latest-news {
+  margin-bottom: 45px;
+}
+
+.news .latest-news .latest-news-item {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.news .latest-news .latest-news-item .img img {
+  width: 100%;
+  height: 475px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news .latest-news .latest-news-item .news-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  padding: 60px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news .latest-news .latest-news-item .news-content .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 200px;
+}
+
+.news .latest-news .latest-news-item .news-content .content h3 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #e8e8e8;
+  margin-bottom: 30px;
+}
+
+.news .latest-news .latest-news-item .news-content .content .cnt {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  color: #e8e8e8;
+  opacity: 0.8;
+}
+
+.news .latest-news .latest-news-item .news-content .link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #009EE3;
+  padding: 0 45px;
+}
+
+.news .latest-news .latest-news-item .news-content .link a .icon {
+  margin-left: 15px;
+}
+
+.news .latest-news .latest-news-item .news-content .link a .icon svg {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+
+.news .latest-news .latest-news-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 45, 45, 0)), color-stop(67.77%, rgba(45, 45, 45, 0.88)), to(#2d2d2d));
+  background: linear-gradient(rgba(45, 45, 45, 0) 0%, rgba(45, 45, 45, 0.88) 67.77%, #2d2d2d 100%);
+}
+
+.news .news-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.news .news-wrapper .item {
+  padding: 0 15px;
+  width: 33.3%;
+}
+
+.news .news-wrapper .item .news-item {
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.news .news-wrapper .item .news-item .img img {
+  width: 100%;
+  height: 240px;
+}
+
+.news .news-wrapper .item .news-item .news-content {
+  padding: 30px;
+}
+
+.news .news-wrapper .item .news-item .news-content h3 {
+  margin-bottom: 15px;
+}
+
+.news .news-wrapper .item .news-item .news-content h3 a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #676767;
+}
+
+.news .news-wrapper .item .news-item .news-content .cnt {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #676767;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.news .news-wrapper .item .news-item .news-content .news-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news .news-wrapper .item .news-item .news-content .news-footer .date {
+  font-weight: 300;
+  font-size: 16px;
+  color: #676767;
+}
+
+.news .news-wrapper .item .news-item .news-content .news-footer a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #676767;
+  position: relative;
+  padding-right: 50px;
+}
+
+.news .news-wrapper .item .news-item .news-content .news-footer a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  width: 35px;
+  height: 1px;
+  background-color: #676767;
+}
 /*# sourceMappingURL=style.css.map */
