@@ -47,4 +47,30 @@ $(function() {
 		$(this).parent().find('.faq-content').slideToggle();
 		$(this).parent().siblings().find('.faq-content').slideUp();
 	})
+
+	// News Detail Font Size Controller
+	var fSize = 23;
+    $(".increase").click(function() {
+        fSize++;
+        $("p").css("font-size", fSize+ 'px');
+    })
+    $(".decrease").click(function() {
+        fSize--;
+        $("p").css("font-size", fSize+ 'px');
+    })
+
+	$(".copy-url").on('click', function(){
+		$(".copy-tooltip").addClass("active");
+		setTimeout(function(){
+			$(".copy-tooltip").removeClass("active");
+		}, 1000)
+		let href = window.location.href
+		t = document.createElement("textarea");
+            document.body.appendChild(t),
+            t.value = href,
+            t.select(),
+            document.execCommand("copy"),
+            document.body.removeChild(t)
+
+	})
 });
