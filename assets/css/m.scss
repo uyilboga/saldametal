@@ -166,3 +166,105 @@
     transform: translateX(-50%) rotate(45deg);
 }
 
+@media screen and (max-width: 1200px) { 
+    .news-detail .news-detail-wrapper {
+        flex-direction: column;
+        .detail-container {
+            width: 100%;
+            padding-right: 0;
+        }
+        .latest-news {
+            width: 100%;
+            height: 250px;
+            background-color: red;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+} 
+
+@media screen and (max-width: 900px) { 
+    .news-detail .news-img-container .img img {
+        height: 300px;
+    }
+    
+    .news-detail .news-detail-wrapper .detail-container .detail-container-top .title {
+        width: 70%;
+        h1 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    }
+
+    .news-detail .news-detail-wrapper .detail-container .detail-text .cnt {
+        font-size: 20px;
+        line-height: 30px;
+    }
+} 
+
+@media screen and (max-width: 767px) { 
+    .news-detail{
+        padding-top: 100px;
+        .news-img-container {
+            .img {
+                img {
+                    height: 200px;
+                }
+            }
+        }
+        .news-detail-wrapper {
+            margin-top: 30px;
+            .detail-container {
+                .detail-container-top {
+                    .title {
+                        width: 100%;
+                        h1 {
+                            font-size: 19px;
+                            line-height: 25px;
+                            margin-bottom: 25px;
+                        }
+                    }
+                    .date {
+                        margin-left: 0;
+                        .big {
+                            span {
+                                font-size: 20px;
+                                font-weight: 300;
+                            }
+                        }
+                        .normal {
+                            margin-left: 5px;
+                            span {
+                                display: inline-block
+                            }
+                        }
+                    }
+                    .detail-elements {
+                        padding: 25px 10px;
+                        ul:first-child {
+                            li + li {
+                                margin-left: 20px;
+                            }
+                        }
+
+                    }
+                }
+                .detail-text {
+                    margin-top: 25px;
+                    .cnt {
+                        font-size: 15px;
+                        line-height: 25px;
+                        p {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+            .latest-news {
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    
+} 
