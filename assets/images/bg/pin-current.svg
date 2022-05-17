@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="77" viewBox="0 0 77 77">
+  <g id="Group_5564" data-name="Group 5564" transform="translate(-938 -271)">
+    <g id="Rectangle_985" data-name="Rectangle 985" transform="translate(954 287)" fill="#009ee3" stroke="rgba(0,158,227,0.45)" stroke-width="16">
+      <rect width="45" height="45" rx="22.5" stroke="none"/>
+      <rect x="-8" y="-8" width="61" height="61" rx="30.5" fill="none"/>
+    </g>
+    <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M15.395,3A7.889,7.889,0,0,0,7.5,10.895c0,5.921,7.895,14.661,7.895,14.661s7.895-8.74,7.895-14.661A7.889,7.889,0,0,0,15.395,3Zm0,10.714a2.819,2.819,0,1,1,2.819-2.819A2.821,2.821,0,0,1,15.395,13.714Z" transform="translate(961.5 295)" fill="#fff"/>
+  </g>
+</svg>
